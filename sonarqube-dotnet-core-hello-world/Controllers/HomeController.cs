@@ -25,6 +25,9 @@ namespace sonarqube_dotnet_core_hello_world.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+            int i;
+            i =+1;
+            ViewData["Message"] = "Your contact page."+i;
 
             return View();
         }
